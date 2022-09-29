@@ -25,5 +25,12 @@ public class ListofTeamMates {
 			}
 		}
 		
+		if(!colegas.isEmpty())
+			colegas.remove(colegas.size() - 1);
+		
+		System.out.println("Remove Ultimo:");
+		for(TeamMates m:colegas) {
+			System.out.println(m.getName());
+		}
 	}
 }
